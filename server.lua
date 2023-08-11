@@ -59,7 +59,7 @@ function LifeInvlog(adtext)
             ["title"] = "LifeInvader",
             ["type"] = "rich",
             ["color"] = Config.Color,
-            ["description"] = '**Nachricht:** '..adtext..'\n'..'\n'..'\n**Sender:** '..name..'\n**ID:** '..playerid..'\n**identifier: **'..'||**'..fivemIdentifier..'**||**'..'\n**DiscordID: **'..'||'..discordID..'||**',
+            ["description"] = '**Message:** '..adtext..'\n'..'\n'..'\n**Sender:** '..name..'\n**ID:** '..playerid..'\n**identifier: **'..'||**'..fivemIdentifier..'**||**'..'\n**DiscordID: **'..'||'..discordID..'||**',
             ["footer"] = {
 				["text"] = os.date(Config.DateFormat),
 			}
